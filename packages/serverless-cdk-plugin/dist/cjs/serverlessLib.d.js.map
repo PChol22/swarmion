@@ -1,0 +1,1 @@
+{"version":3,"file":"serverlessLib.d.js","names":[],"sources":["../../src/serverlessLib.d.ts"],"sourcesContent":["declare module 'serverless/lib/cli/resolve-configuration-path' {\n  const resolveConfigPath: () => Promise<string>;\n  export default resolveConfigPath;\n}\n"],"mappings":""}

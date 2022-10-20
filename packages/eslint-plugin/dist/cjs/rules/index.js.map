@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","names":[],"sources":["../../../src/rules/index.ts"],"sourcesContent":["export { default as noUndeclaredContracts } from './noUndeclaredContracts';\n"],"mappings":";;;;;;;;;;;;AAAA"}

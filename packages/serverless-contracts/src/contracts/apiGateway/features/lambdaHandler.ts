@@ -65,6 +65,16 @@ export const getHandler =
  * Use `getHandler` for a more advanced usage
  */
 export const getLambdaHandler =
-  <Contract extends ApiGatewayContract>(contract: Contract) =>
-  (handler: HandlerType<typeof contract>): HandlerType<typeof contract> =>
+  <
+    Contract extends ApiGatewayContract,
+    AdditionalContext extends
+      | Record<string, unknown>
+      | Record<never, never> = Record<never, never>,
+  >(
+    contract: Contract,
+    additionalContext: AdditionalContext,
+  ) =>
+  (
+    handler: HandlerType<typeof contract, typeof additionalContext>,
+  ): HandlerType<typeof contract, typeof additionalContext> =>
     handler;

@@ -1,0 +1,1 @@
+{"version":3,"file":"contractOpenApiDocumentation.js","names":[],"sources":["../../../src/types/contractOpenApiDocumentation.ts"],"sourcesContent":["import { OpenAPIV3 } from 'openapi-types';\n\nexport interface ContractOpenApiDocumentation {\n  path: string;\n  method: string;\n  documentation: OpenAPIV3.OperationObject;\n}\n"],"mappings":""}

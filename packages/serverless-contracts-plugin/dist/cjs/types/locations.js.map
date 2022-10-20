@@ -1,0 +1,1 @@
+{"version":3,"file":"locations.js","names":["ContractSchemasLocation"],"sources":["../../../src/types/locations.ts"],"sourcesContent":["export enum ContractSchemasLocation {\n  LOCAL = 'LOCAL',\n  REMOTE = 'REMOTE',\n}\n"],"mappings":";;;;;;IAAYA,uBAAuB;AAAA;AAAA,WAAvBA,uBAAuB;EAAvBA,uBAAuB;EAAvBA,uBAAuB;AAAA,GAAvBA,uBAAuB,uCAAvBA,uBAAuB"}

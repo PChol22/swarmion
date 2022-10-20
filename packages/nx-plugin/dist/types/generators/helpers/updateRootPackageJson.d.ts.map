@@ -1,0 +1,1 @@
+{"version":3,"file":"updateRootPackageJson.d.ts","sourceRoot":"","sources":["../../../../src/generators/helpers/updateRootPackageJson.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,IAAI,EAAc,MAAM,cAAc,CAAC;AAEhD,OAAO,EAAE,gBAAgB,EAAE,MAAM,UAAU,CAAC;AAO5C,eAAO,MAAM,qBAAqB,SAC1B,IAAI,WACD,gBAAgB,KACxB,IAQF,CAAC"}

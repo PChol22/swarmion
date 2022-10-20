@@ -1,0 +1,1 @@
+{"version":3,"file":"serverlessContract.js","names":[],"sources":["../../../src/types/serverlessContract.ts"],"sourcesContent":["import { ApiGatewayContract, CloudFormationContract } from 'contracts';\n\nexport type ServerlessContract = ApiGatewayContract | CloudFormationContract;\n"],"mappings":""}

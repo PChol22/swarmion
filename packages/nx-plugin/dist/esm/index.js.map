@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","names":["default","libraryGenerator","serviceGenerator"],"sources":["../../src/index.ts"],"sourcesContent":["export { default as libraryGenerator } from './generators/library';\nexport { default as serviceGenerator } from './generators/service';\n"],"mappings":"AAAA,SAASA,OAAO,IAAIC,gBAAgB;AACpC,SAASD,OAAO,IAAIE,gBAAgB"}

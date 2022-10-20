@@ -1,0 +1,1 @@
+{"version":3,"file":"lambdaHandler.d.ts","sourceRoot":"","sources":["../../../../../src/contracts/apiGateway/features/lambdaHandler.ts"],"names":[],"mappings":"AAGA,OAAO,EAAE,kBAAkB,EAAE,MAAM,uBAAuB,CAAC;AAC3D,OAAO,EAAE,iBAAiB,EAAE,WAAW,EAAE,MAAM,UAAU,CAAC;AAM1D,eAAO,MAAM,UAAU,qpBAgDpB,CAAC;AAQJ,eAAO,MAAM,gBAAgB,syBAalB,CAAC"}

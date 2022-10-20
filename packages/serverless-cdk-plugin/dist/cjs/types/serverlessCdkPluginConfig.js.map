@@ -1,0 +1,1 @@
+{"version":3,"file":"serverlessCdkPluginConfig.js","names":[],"sources":["../../../src/types/serverlessCdkPluginConfig.ts"],"sourcesContent":["import { Construct } from 'constructs';\n\nimport { ServerlessConstruct } from './serverlessConstruct';\n\nexport type ServerlessCdkPluginConfig = {\n  construct: typeof ServerlessConstruct | typeof Construct;\n};\n"],"mappings":""}

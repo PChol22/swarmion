@@ -1,0 +1,1 @@
+{"version":3,"file":"schema.d.js","names":[],"sources":["../../../../src/generators/service/schema.d.ts"],"sourcesContent":["export interface ServiceGeneratorSchema {\n  name: string;\n  directory?: string;\n}\n"],"mappings":""}

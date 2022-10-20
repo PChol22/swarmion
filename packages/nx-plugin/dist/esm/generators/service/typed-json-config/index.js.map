@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","names":[],"sources":["../../../../../src/generators/service/typed-json-config/index.ts"],"sourcesContent":["export * from './package.json';\nexport * from './project.json';\nexport * from './tsconfig.json';\n"],"mappings":"AAAA;AACA;AACA"}

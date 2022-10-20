@@ -1,0 +1,1 @@
+{"version":3,"file":"serverlessCdkPluginConfig.d.ts","sourceRoot":"","sources":["../../../src/types/serverlessCdkPluginConfig.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,SAAS,EAAE,MAAM,YAAY,CAAC;AAEvC,OAAO,EAAE,mBAAmB,EAAE,MAAM,uBAAuB,CAAC;AAE5D,oBAAY,yBAAyB,GAAG;IACtC,SAAS,EAAE,OAAO,mBAAmB,GAAG,OAAO,SAAS,CAAC;CAC1D,CAAC"}

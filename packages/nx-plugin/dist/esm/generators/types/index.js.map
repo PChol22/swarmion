@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","names":[],"sources":["../../../../src/generators/types/index.ts"],"sourcesContent":["export * from './PackageJson';\nexport * from './GeneratorType';\nexport * from './TsConfig';\nexport * from './Shema';\n"],"mappings":"AAAA;AACA;AACA;AACA"}

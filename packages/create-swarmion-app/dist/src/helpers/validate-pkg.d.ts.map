@@ -1,0 +1,1 @@
+{"version":3,"file":"validate-pkg.d.ts","sourceRoot":"","sources":["file:///Users/pchol/code/swarmion/packages/create-swarmion-app/src/helpers/validate-pkg.ts"],"names":[],"mappings":"AAEA,aAAK,cAAc,GACf;IACE,KAAK,EAAE,KAAK,CAAC;IACb,QAAQ,EAAE,MAAM,EAAE,CAAC;CACpB,GACD;IAAE,KAAK,EAAE,IAAI,CAAC;IAAC,QAAQ,EAAE,IAAI,CAAA;CAAE,CAAC;AAEpC,eAAO,MAAM,eAAe,SAAU,MAAM,KAAG,cAa9C,CAAC"}

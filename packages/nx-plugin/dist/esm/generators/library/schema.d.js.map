@@ -1,0 +1,1 @@
+{"version":3,"file":"schema.d.js","names":[],"sources":["../../../../src/generators/library/schema.d.ts"],"sourcesContent":["export interface LibraryGeneratorSchema {\n  name: string;\n  directory?: string;\n}\n"],"mappings":""}

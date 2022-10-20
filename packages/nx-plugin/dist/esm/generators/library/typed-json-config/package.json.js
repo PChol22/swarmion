@@ -1,0 +1,55 @@
+export var packageJson = function packageJson(options) {
+  return {
+    name: "@".concat(options.workspaceName, "/").concat(options.importPath),
+    "private": true,
+    version: '1.0.0',
+    license: 'UNLICENSED',
+    sideEffects: false,
+    files: ['dist'],
+    main: 'dist/cjs/index.js',
+    module: 'dist/esm/index.js',
+    types: 'dist/types/index.d.ts',
+    scripts: {
+      'lint-fix': 'pnpm linter-base-config --fix',
+      'lint-fix-all': 'pnpm lint-fix .',
+      'linter-base-config': 'eslint --ext=js,ts',
+      "package": 'rm -rf dist && pnpm package-cjs && pnpm package-esm && pnpm package-types && pnpm package-types-aliases',
+      'package-cjs': 'NODE_ENV=cjs pnpm transpile --out-dir dist/cjs --source-maps',
+      'package-esm': 'NODE_ENV=esm pnpm transpile --out-dir dist/esm --source-maps',
+      'package-types': 'tsc -p tsconfig.build.json',
+      'package-types-aliases': 'tsc-alias -p tsconfig.build.json',
+      test: 'pnpm test-linter && pnpm test-type && pnpm test-unit && pnpm test-circular',
+      'test-circular': 'pnpm depcruise --validate .dependency-cruiser.js src',
+      'test-linter': 'pnpm linter-base-config .',
+      'test-type': 'tsc --noEmit --emitDeclarationOnly false',
+      'test-unit': 'vitest run --coverage --passWithNoTests',
+      transpile: 'babel src --extensions .ts --quiet',
+      watch: "rm -rf dist && concurrently 'pnpm:package-* --watch'"
+    },
+    dependencies: {
+      '@babel/runtime': 'latest'
+    },
+    devDependencies: {
+      '@babel/cli': 'latest',
+      '@babel/core': 'latest',
+      '@babel/plugin-transform-runtime': 'latest',
+      '@babel/preset-env': 'latest',
+      '@babel/preset-typescript': 'latest',
+      '@types/node': 'latest',
+      '@vitest/coverage-c8': 'latest',
+      'babel-plugin-module-resolver': 'latest',
+      concurrently: 'latest',
+      'dependency-cruiser': 'latest',
+      eslint: 'latest',
+      'json-schema-to-ts': 'latest',
+      prettier: 'latest',
+      'ts-node': 'latest',
+      'tsc-alias': 'latest',
+      typescript: 'latest',
+      vite: 'latest',
+      'vite-tsconfig-paths': 'latest',
+      vitest: 'latest'
+    }
+  };
+};
+//# sourceMappingURL=package.json.js.map

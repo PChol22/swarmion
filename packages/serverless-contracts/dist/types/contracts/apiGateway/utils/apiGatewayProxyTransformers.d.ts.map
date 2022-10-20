@@ -1,0 +1,1 @@
+{"version":3,"file":"apiGatewayProxyTransformers.d.ts","sourceRoot":"","sources":["../../../../../src/contracts/apiGateway/utils/apiGatewayProxyTransformers.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,kBAAkB,EAAE,MAAM,uBAAuB,CAAC;AAC3D,OAAO,EACL,eAAe,EACf,gBAAgB,EAEhB,gBAAgB,EAChB,UAAU,EACX,MAAM,UAAU,CAAC;AAElB,eAAO,MAAM,wBAAwB,4rBAgBpC,CAAC;AAEF,eAAO,MAAM,4BAA4B,6mBAWvC,CAAC"}

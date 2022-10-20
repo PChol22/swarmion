@@ -1,0 +1,4 @@
+import { ContractOpenApiDocumentation } from '../../../types/contractOpenApiDocumentation';
+import { ApiGatewayContract } from '../apiGatewayContract';
+export declare const getOpenApiDocumentation: <Contract extends ApiGatewayContract<string, import("../../../types/http").HttpMethod, import("../types/constants").ApiGatewayIntegrationType, import("../types/constants").ApiGatewayAuthorizerType, import("../../../types/constrainedJSONSchema").ConstrainedJSONSchema | undefined, import("../../../types/constrainedJSONSchema").ConstrainedJSONSchema | undefined, import("../../../types/constrainedJSONSchema").ConstrainedJSONSchema | undefined, import("json-schema-to-ts").JSONSchema7 | undefined, import("json-schema-to-ts").JSONSchema7 | undefined>>(contract: Contract) => ContractOpenApiDocumentation;
+//# sourceMappingURL=openApiDocumentation.d.ts.map
